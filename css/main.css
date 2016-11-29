@@ -95,7 +95,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+h2 {
+    border-top: 6px solid black;
+}
 
+footer {
+    background-color: #212322;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
 
 
 
