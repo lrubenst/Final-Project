@@ -103,7 +103,7 @@ html {
 }
 
 body {
-    margin-left: 30px;
+    
 }
 
 .page-header {  background: #000;
@@ -115,28 +115,42 @@ body {
     width: 100%;
     height: 90px;
     z-index: 10; }
+
 .page-header h2 {
     border: none;
 }
+
 #topnav ul li {
     display: inline;
     float: right;
+    padding-right: 10px;
+    font-size: .75em;
+    font-weight: lighter;
+    margin-top: -20px;
+
 }  
 
 .main-section {
     position: relative;
+    margin-top: 120px;
+    background-color: #5E6B7E;
+    padding-left: 550px;
+    padding-top: 150px;
+    color: white;
+    height: 400px;
+    font-weight: bolder;
 }
-h1 {
 
+
+
+h1 {
     max-width: 128px;
     border: 3px solid black;
     padding: 5px;
-    padding-right: 8x;
+    padding-right: 8px;
 } 
 
-h2 {
-    border-top: 6px solid black;
-}
+
 
 footer {
     background-color: #212322;
@@ -148,15 +162,41 @@ ul {
 }
 
 
-body {font-family: 'Open Sans', sans-serif;
-        font-size: 1em;}
+body {
+    font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+}
 
 .our-mission a {
     color: #6ACD3E;
 }
 
+.about, .our-products, .food h2 {
+    border-top: 5px solid black;
+}
+
+
+#mission-text {
+    max-width: 33%;
+}
+#about-text {
+    max-width: 33%;
+}
+#food-text {
+    max-width: 33%;
+}
+
+
+
+
+
+footer {
+    color: #9D9D9D
+}
+
 footer a {
-    text-decoration: none;   
+    text-decoration: none;  
+    color: #9D9D9D; 
 }
 
 
