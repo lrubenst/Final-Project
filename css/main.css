@@ -94,6 +94,45 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    margin-left: 30px;
+}
+
+.page-header {  background: #000;
+    background-color: white;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    z-index: 10; }
+.page-header h2 {
+    border: none;
+}
+#topnav ul li {
+    display: inline;
+    float: right;
+}  
+
+.main-section {
+    position: relative;
+}
+h1 {
+
+    max-width: 128px;
+    border: 3px solid black;
+    padding: 5px;
+    padding-right: 8x;
+} 
 
 h2 {
     border-top: 6px solid black;
@@ -109,9 +148,17 @@ ul {
 }
 
 
-body {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1em;
+body {font-family: 'Open Sans', sans-serif;
+        font-size: 1em;}
+
+.our-mission a {
+    color: #6ACD3E;
+}
+
+footer a {
+    text-decoration: none;   
+}
+
 
 
 
