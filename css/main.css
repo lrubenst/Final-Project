@@ -104,9 +104,28 @@ html {
 }
 
 body {
-
-    
+    font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
 }
+
+h1 {
+    max-width: 128px;
+    border: 2px solid black;
+    padding: 7px;
+    padding-right: 8px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-top: -1px;
+    font-weight: lighter;
+} 
+
+
+
+ul {
+    list-style-type: none;
+}
+
+
 
 .page-header {  
     background-color: white;
@@ -156,32 +175,22 @@ body {
     font-weight: bolder;
 }
 
+.main-section img {
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: -450px;
+
+
+}
+
 #maintext h2 {
     font-size: 2em;
 }
 
-
-h1 {
-    max-width: 128px;
-    border: 2px solid black;
-    padding: 7px;
-    padding-right: 8px;
-    margin-bottom: 10px;
-    margin-left: 50px;
-    margin-top: -1px;
-    font-weight: lighter;
-} 
-
-
-
-ul {
-    list-style-type: none;
-}
-
-
-body {
-    font-family: 'Open Sans', sans-serif;
-        font-size: 1em;
+.about img {
+    max-width: 300px;
+    max-height: 300px;
+    float: right;
 }
 
 .our-mission a {
@@ -208,7 +217,8 @@ body {
 
 #main-text {
     max-width: 50%;
-    margin-left: 30px;
+    float: right;
+    padding-right: 100px;
 }
 
 
